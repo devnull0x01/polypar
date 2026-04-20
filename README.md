@@ -82,3 +82,15 @@ PolyPAR is part of a growing set of tools built around polymath learning:
 ---
 
 *PolyPAR*
+
+---
+
+## FAQ
+
+**What sorts of codes should I use?**
+
+The coding system is entirely up to you. Some examples to get started:
+
+- `B1`, `B2`, `B3` — books
+- `S1`, `S2`, `S3` — websites and online platforms
+- `YT1`, `YT2` — YouTube channels
