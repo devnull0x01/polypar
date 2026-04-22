@@ -94,3 +94,9 @@ The coding system is entirely up to you. Some examples to get started:
 - `B1`, `B2`, `B3` — books
 - `S1`, `S2`, `S3` — websites and online platforms
 - `YT1`, `YT2` — YouTube channels
+
+**Why only seven lines per role?**
+
+Seven lines is intentional. Once a role's rows are full for the week, the form is telling you to move on. It prevents over-indexing on one discipline at the expense of the others. The form itself becomes the accountability system — a mechanical enforcer of the polymath philosophy.
+
+If you filled all seven lines for Hacker & Sys Admin, go be a Mathematician for a day.
