@@ -27,7 +27,7 @@ This shift — from time-based to identity-based learning — changes how you ab
 
 ## The Forms
 
-PolyPAR ships as two printable PDF forms, designed for a standard laser printer. Download them directly from this repository — no setup required.
+PolyPAR ships as three printable PDF forms, designed for a standard laser printer. Download them directly from this repository — no setup required.
 
 ### Study Schedule (`study_schedule.pdf`)
 
@@ -51,11 +51,20 @@ A companion reference page. Write each book or platform once, assign it a number
 
 | Column | Purpose |
 |---|---|
-| **Site#** | A number representing a platform (e.g. 1 = TryHackMe, 2 = HackTheBox) |
-| **Book#** | A number representing a book (e.g. 1 = The Linux Command Line) |
+| **Site#** | A number representing a platform (e.g. S1 = TryHackMe, S2 = HackTheBox) |
+| **Book#** | A number representing a book (e.g. B1 = The Linux Command Line) |
 | **Book or Platform** | The full title or URL |
 
 Print one Study Codes page and reuse it across many weeks. Print a fresh Study Schedule each week.
+
+### Page Stops (`page_stops.pdf`)
+
+A dedicated bookmark reference. No dog-earing required. Each row holds a Book# on the left and 16 cells for recording page stops as you move through a book over time. If a row fills up, simply start a new entry below.
+
+| Column | Purpose |
+|---|---|
+| **Book#** | The code assigned to the book in Study Codes |
+| **Page Stops** | 16 cells to record where you left off each session |
 
 ---
 
@@ -69,19 +78,6 @@ Requirements: Python 3, ReportLab
 pip install reportlab
 python make_pdfs.py
 ```
-
----
-
-## Part of the Poly Suite
-
-PolyPAR is part of a growing set of tools built around polymath learning:
-
-- **[PolyWAB](https://github.com/devnull0x01/polywab)** — Poly Wants A Book. A terminal-based reading tracker.
-- **PolyPAR** — Poly Plays A Role. A printable role-based study log.
-
----
-
-*PolyPAR*
 
 ---
 
@@ -100,3 +96,16 @@ The coding system is entirely up to you. Some examples to get started:
 Seven lines is intentional. Once a role's rows are full for the week, the form is telling you to move on. It prevents over-indexing on one discipline at the expense of the others. The form itself becomes the accountability system — a mechanical enforcer of the polymath philosophy.
 
 If you filled all seven lines for Hacker & Sys Admin, go be a Mathematician for a day.
+
+---
+
+## Part of the Poly Suite
+
+PolyPAR is part of a growing set of tools built around polymath learning:
+
+- **[PolyWAB](https://github.com/devnull0x01/polywab)** — Poly Wants A Book. A terminal-based reading tracker.
+- **PolyPAR** — Poly Plays A Role. A printable role-based study log.
+
+---
+
+*PolyPAR*
