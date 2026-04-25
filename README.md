@@ -27,7 +27,7 @@ This shift — from time-based to identity-based learning — changes how you ab
 
 ## The Forms
 
-PolyPAR ships as three printable PDF forms, designed for a standard laser printer.
+PolyPAR ships as four printable PDF forms, designed for a standard laser printer.
 
 ---
 
@@ -85,6 +85,21 @@ Print one Study Codes page and reuse it across many weeks.
 
 ---
 
+
+### Page Stops (`page_stops.pdf`)
+
+A dedicated tracking page for recording where you left off in each book. Without dog-earing pages or relying on memory, this form gives you a quick reference for picking up exactly where you stopped.
+
+Each row represents a book, identified by its Book# from the Study Codes page. The Page Stops column contains 16 cells for recording page numbers as you progress — fill them left to right each time you stop reading.
+
+| Column | Purpose |
+|---|---|
+| **Book#** | The number assigned to the book on the Study Codes page |
+| **Page Stops** | 16 cells to record your stopping page each session |
+
+Print one Page Stops page and reuse it across many weeks alongside the Study Codes page.
+
+---
 ## Design Decisions
 
 **Why only seven lines per role?**
@@ -124,7 +139,7 @@ pip install reportlab
 python make_pdfs.py
 ```
 
-Output: `study_schedule.pdf`, `experience_log.pdf`, and `study_codes.pdf`
+Output: `study_schedule.pdf`, `experience_log.pdf`, `study_codes.pdf`, and `page_stops.pdf`
 
 ---
 
