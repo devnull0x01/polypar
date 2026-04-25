@@ -59,8 +59,7 @@ The Experience Schedule captures that. Same seven roles, same seven lines per ro
 |---|---|
 | **Role** | The discipline or identity the experience belongs to |
 | **M T W T F S S** | Tick the day the experience occurred |
-| **Experience / Activity** | What you actually did |
-| **Key Topic(s) Learned** | What it taught you |
+| **Experience / Activity** | What you did and what it taught you — written as one natural entry |
 
 Print a fresh Experience Schedule each week alongside the Study Schedule.
 
